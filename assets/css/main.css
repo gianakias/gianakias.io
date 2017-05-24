@@ -8,7 +8,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, lola, xo, xo1 {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -1080,7 +1080,7 @@
 		letter-spacing: -1px;
 	}
 
-	h1, h2, h3, h4 {
+	h1, h2, h3, h4, xo, xo1 {
 		color: #007897;
 		font-weight: normal;
 	}
@@ -1100,7 +1100,18 @@
 		color: #283121;
 		margin-bottom: 0.5em;
 	}
-
+	
+	xo {
+		color: #e60000;
+		margin: 3.5em;
+		font-size: 1.22em;
+	}
+	xo1 {
+		color: #e60000;
+		margin: 1.1em;
+		font-size: 1.22em;
+	}
+	
 	h3 {
 		font-size: 1.2em;
 		margin-bottom: 0.8em;
@@ -1173,6 +1184,15 @@
 		overflow: hidden;
 		margin-bottom: 2em;
 	}
+	
+		ul.lola li{
+		border-top: solid 0.1px #ced0b7;
+		padding: 0.35em 0 0 30px;
+		margin: 0.35em 0 0 10px;
+		list-style-type: circle;
+		list-style-position:inside;
+	
+		}
 
 	ul.link-list li {
 		border-top: solid 1px #ced0b7;
@@ -1185,6 +1205,7 @@
 			margin-top: 0;
 			border-top: 0;
 		}
+		
 
 	.button {
 		background-image: -moz-linear-gradient(top, #008dad, #007b9d);
@@ -1249,6 +1270,10 @@
 
 			ul.big-image-list img {
 				width: 178px;
+			}
+			
+			u1.lola {
+				padding-right: 100px;
 			}
 
 		/* Reusable */
@@ -1371,6 +1396,33 @@
 					text-align: center;
 					letter-spacing: -2px;
 				}
+				
+				#banner xo {
+					position: absolute;
+					z-index: 1;
+					width: 100%;
+					top: 100px;
+					left: 0;
+					font-size: 5em;
+					color: black;
+					text-align: center;
+					letter-spacing: -2px;
+					
+				}
+				
+				#banner xo1 {
+					position: absolute;
+					z-index: 1;
+					width: 100%;
+					top: 100px;
+					left: 0;
+					font-size: 5em;
+					color: black;
+					text-align: center;
+					letter-spacing: -2px;
+					
+				}
+				
 
 				#banner span {
 					display: block;
@@ -1467,8 +1519,19 @@
 				#banner h2 {
 					font-size: 3em;
 					top: 80px;
+					
 				}
-
+				
+				#banner xo {
+					font-size: 4em;
+					top: 40px;
+					
+				}
+				
+				#banner xo1 {
+					font-size: 4em;
+					top: 40px;
+				}
 				#banner span {
 					font-size: 1.4em;
 					bottom: 85px;
@@ -1518,7 +1581,14 @@
 			h4 {
 				font-size: 1em;
 			}
-
+			xo {
+				margin: 0.8em;
+				font-size: 1em;
+			}
+			xo1 {
+				margin: 0.8em;
+				font-size: 1em;
+			}
 		/* Reusable */
 
 			ul.small-image-list img {
@@ -1594,6 +1664,28 @@
 					left: 0;
 					font-size: 2em;
 					color: #fff;
+					text-align: center;
+					letter-spacing: -2px;
+				}
+				#banner xo {
+					position: absolute;
+					z-index: 1;
+					width: 100%;
+					bottom: 80px;
+					left: 0;
+					font-size: 3em;
+					color: black;
+					text-align: center;
+					letter-spacing: -2px;
+				}
+				#banner xo1 {
+					position: absolute;
+					z-index: 1;
+					width: 100%;
+					bottom: 80px;
+					left: 0;
+					font-size: 3em;
+					color: black;
 					text-align: center;
 					letter-spacing: -2px;
 				}
