@@ -1445,6 +1445,12 @@
 				background: #fff;
 				padding: 4em 0;
 			}
+			
+			#main1 {
+				background: url(images/photo1.jpg) no-repeat center fixed;
+				padding: 4em 0;
+				background-size: cover;
+				}
 
 		/* Footer */
 
@@ -1610,6 +1616,12 @@
 			#main section, #main article {
 				background: #fff;
 			}
+			
+				#main1 section, #main1 article {
+				background: url(images/photo1.jpg) no-repeat center fixed;
+				padding: 4em 0;
+				background-size: cover;
+				}
 
 			article.blog-post .comments {
 				display: block;
@@ -1710,6 +1722,9 @@
 			#main {
 				margin-top: 44px;
 			}
+			#main1 {
+				margin-top: 44px;
+				}
 
 		/* Footer */
 
